@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #d2b48c ; /* Dark Coffee Brown */
+        }
+        .login-container {
+            background-color: #d2b48c; /* Light Coffee Beige */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            text-align: center;
+        }
+        h2 {
+            color: #3e2723; /* Deep Brown */
+        }
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #8b5e3b; /* Coffee Border */
+            border-radius: 6px;
+            background-color: #f5e1c8; /* Creamy Beige */
+            color: #3e2723;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #6f4e37; /* Rich Coffee */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .login-btn:hover {
+            background-color: #6f4e37; /* Darker Coffee */
+        }
+        .forgot-password {
+            display: block;
+            text-align: center;
+            margin-top: 12px;
+            color: #6f4e37;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <input type="email" class="input-field" placeholder="Enter Email" name="email" required>
+            <input type="password" class="input-field" placeholder="Enter Password" name="password" required>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <a href="#" class="forgot-password">Forgot password?</a>
+    </div>
+
+</body>
+</html>

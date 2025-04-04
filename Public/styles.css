@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e5;
+    text-align: center;
+}
+
+header {
+    background-color: #6f4e37;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('coffee.jpg');
+    background-size: cover;
+    color: peru;
+    padding: 100px 20px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.home-text {
+    max-width: 500px;
+    margin: 20px;
+    text-align: left;
+}
+
+.home-images img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.services, .contact {
+    padding: 20px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer {
+    background: #6f4e37;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
